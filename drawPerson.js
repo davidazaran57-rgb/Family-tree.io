@@ -40,7 +40,7 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             .attr("y", smallRadius + 15)
             .attr("x", offset)
             .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
+            .attr("font-size", "20px")
             .text(person.spouse.firstName);
     }
 
@@ -50,7 +50,7 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             .attr("y", smallRadius + 15)
             .attr("x", -offset)
             .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
+            .attr("font-size", "20px")
             .text(person.firstName);
     }
     
