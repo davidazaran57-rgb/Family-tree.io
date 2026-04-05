@@ -29,8 +29,8 @@ d3.json("family_tree.json").then(data => {
     const baseRadius = 650;
     const innerRadius = baseRadius * 0.4; // 🔥 новый маленький круг
 
-    const smallRadius = 50;
-    const offset = 50;
+    const smallRadius = 20;
+    const offset = 30;
 
     const ROWS = 6;
     const rowHeight = baseRadius / ROWS;
