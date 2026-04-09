@@ -40,8 +40,14 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             .attr("y", smallRadius + 15)
             .attr("x", offset)
             .attr("text-anchor", "middle")
-            .attr("font-size", "20px")
+            .attr("font-size", "14px")
             .text(person.spouse.firstName);
+        g.append("text")
+            .attr("y", smallRadius + 30)
+            .attr("x", offset)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "14px")
+            .text(person.spouse.lastName);    
     }
 
     // 📝 имя (основного)
@@ -50,8 +56,14 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             .attr("y", smallRadius + 15)
             .attr("x", -offset)
             .attr("text-anchor", "middle")
-            .attr("font-size", "20px")
+            .attr("font-size", "14px")
             .text(person.firstName);
+        g.append("text")
+            .attr("y", smallRadius + 30)
+            .attr("x", -offset)
+            .attr("text-anchor", "middle")
+            .attr("font-size", "14px")
+            .text(person.lastName);    
     }
     
     applyHover(g, person);
