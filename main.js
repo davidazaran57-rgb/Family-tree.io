@@ -2,8 +2,9 @@ import { drawPerson } from "./drawPerson.js";
 import { setupZoom } from "./zoom.js";
 import { assignColors } from "./colorGenerator.js";
 
-d3.json("family_tree.json").then(data => {
-    assignColors(data.husband);
+//d3.json("tree/family.json").then(data => {
+d3.json("tree/tree.json").then(data => {
+    assignColors(data.root);
     function linkParents(person) {
         if (!person) return;
 
@@ -12,7 +13,7 @@ d3.json("family_tree.json").then(data => {
             linkParents(child);
         });
     }
-    linkParents(data.husband);
+    linkParents(data.root);
     const width = 1500;
     const height = 1500;
 
@@ -26,14 +27,14 @@ d3.json("family_tree.json").then(data => {
 
     const maxGenerations = data.max_generations;
 
-    const baseRadius = 650;
+    const baseRadius = 550;
     const innerRadius = baseRadius * 0.4; // 🔥 новый маленький круг
 
-    const smallRadius = 20;
-    const offset = 30;
+    const smallRadius = 25;
+    const offset = smallRadius + 5;
 
     const ROWS = 6;
-    const rowHeight = baseRadius / ROWS;
+    const rowHeight = 500 / ROWS;
 
     // 🟢 🔥 маленький круг
     svg.append("circle")
@@ -102,9 +103,9 @@ d3.json("family_tree.json").then(data => {
     }
 
     // 🟢 центр
-    drawPerson(svg, 0, 1, offset, smallRadius, data.husband);
+    drawPerson(svg, 0, 1, offset, smallRadius, data.root);
 
-    const root = data.husband;
+    const root = data.root;
     const children = root.children || [];
     const kidsCount = children.length;
 
