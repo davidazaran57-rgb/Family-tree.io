@@ -1,0 +1,869 @@
+{
+    "max_generations": 5,
+    "root": {
+        "firstName": "Сергей",
+        "lastName": "Азарян",
+        "patronymic": "Арустамович",
+        "spouse": {
+            "firstName": "Азарян",
+            "lastName": "Фарандзем",
+            "patronymic": "Мравомна"
+        },
+        "children": [
+            {
+                "firstName": "Мурад",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевич",
+                "spouse": {
+                    "firstName": "Ира",
+                    "lastName": "Салхян",
+                    "patronymic": "Михайловна"
+                },
+                "children": [
+                    {
+                        "firstName": "Ира",
+                        "lastName": "Салхян",
+                        "patronymic": "Михайловна",
+                        "spouse": {
+                            "firstName": "Карина",
+                            "lastName": "Азарян",
+                            "patronymic": "Мурадовна"
+                        },
+                        "children": []
+                    },
+                    {
+                        "firstName": "Карина",
+                        "lastName": "Азарян",
+                        "patronymic": "Мурадовна",
+                        "spouse": {
+                            "firstName": "Леник",
+                            "lastName": "Авакян",
+                            "patronymic": "Амирханович"
+                        },
+                        "children": []
+                    },
+                    {
+                        "firstName": "Аида",
+                        "lastName": "Азарян",
+                        "patronymic": "Мурадовна",
+                        "spouse": {
+                            "firstName": "Александр",
+                            "lastName": "Оганесян",
+                            "patronymic": "Мехагович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Александр",
+                                "lastName": "Оганесян",
+                                "patronymic": "Мехагович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Виталик",
+                                "lastName": "Оганесян",
+                                "patronymic": "Александрович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Маргарита",
+                                "lastName": "Оганесян",
+                                "patronymic": "Александровна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Люда",
+                                "lastName": "Оганесян",
+                                "patronymic": "Александровна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Лилия",
+                        "lastName": "Азарян",
+                        "patronymic": "Мурадовна",
+                        "spouse": {
+                            "firstName": "Валера",
+                            "lastName": "Салахян",
+                            "patronymic": "Грантович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Самвел",
+                                "lastName": "Салахян",
+                                "patronymic": "Валерьевич",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Акоп",
+                                "lastName": "Салахян",
+                                "patronymic": "Валерьевич",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Валера",
+                        "lastName": "Азарян",
+                        "patronymic": "Мурадович",
+                        "spouse": {
+                            "firstName": "Рузанна",
+                            "lastName": "Азарян",
+                            "patronymic": "?"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Артак",
+                                "lastName": "Азарян",
+                                "patronymic": "Валерьевич",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Нелли",
+                                "lastName": "Азарян",
+                                "patronymic": "Валерьевна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Арустам",
+                                "lastName": "Азарян",
+                                "patronymic": "Валерьевич",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "firstName": "Нура",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевна",
+                "spouse": {
+                    "firstName": "Серож",
+                    "lastName": "Салахян",
+                    "patronymic": "Саканович"
+                },
+                "children": [
+                    {
+                        "firstName": "Соня",
+                        "lastName": "Салахян",
+                        "patronymic": "Сергеевна",
+                        "spouse": {
+                            "firstName": "Валод",
+                            "lastName": "Марутян",
+                            "patronymic": "Петросович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Геналий",
+                                "lastName": "Марутян",
+                                "patronymic": "Валодович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Карина",
+                                "lastName": "Марутян",
+                                "patronymic": "Валодовна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Афеля",
+                                "lastName": "Марутян",
+                                "patronymic": "Валодовна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Асак",
+                                "lastName": "Марутян",
+                                "patronymic": "Валодович",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Леник",
+                        "lastName": "Салахян",
+                        "patronymic": "Сергеевич",
+                        "spouse": {
+                            "firstName": "Нурик",
+                            "lastName": "Авакян",
+                            "patronymic": "Сергеевна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Инара",
+                                "lastName": "Авакян",
+                                "patronymic": "Лениковна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Нара",
+                                "lastName": "Авакян",
+                                "patronymic": "Лениковна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Оля",
+                        "lastName": "Салахян",
+                        "patronymic": "Сергеевич",
+                        "spouse": {
+                            "firstName": "Павлик",
+                            "lastName": "Мурадян",
+                            "patronymic": "Владимирович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Акоп",
+                                "lastName": "Мурадян",
+                                "patronymic": "Павлович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Геворг",
+                                "lastName": "Мурадян",
+                                "patronymic": "Павлович",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Толик",
+                        "lastName": "Салхян",
+                        "patronymic": "Сергеевич",
+                        "spouse": {
+                            "firstName": "Смеда",
+                            "lastName": "Авакян",
+                            "patronymic": "Суреновна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Лиана",
+                                "lastName": "Салахян",
+                                "patronymic": "Анатольевна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Нона",
+                                "lastName": "Салахян",
+                                "patronymic": "Анатольевна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Колик",
+                        "lastName": "Салахян",
+                        "patronymic": "Сергеевич",
+                        "spouse": {
+                            "firstName": "Арандзин",
+                            "lastName": "Салахян",
+                            "patronymic": "Арташовна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Сергей",
+                                "lastName": "Салахян",
+                                "patronymic": "Николаевна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Ермоня",
+                        "lastName": "Салахян",
+                        "patronymic": "Сергеевна",
+                        "spouse": {
+                            "firstName": "Арарат",
+                            "lastName": "Оганесян",
+                            "patronymic": "Шаликоевич"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Шалико",
+                                "lastName": "Оганесян",
+                                "patronymic": "Араратович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Шахан",
+                                "lastName": "Оганесян",
+                                "patronymic": "Араратовна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Кристина",
+                                "lastName": "Оганесян",
+                                "patronymic": "Араратовна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "firstName": "Шурик",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевич",
+                "spouse": {
+                    "firstName": "Вергуш",
+                    "lastName": "Салазян",
+                    "patronymic": "Арутюновна"
+                },
+                "children": [
+                    {
+                        "firstName": "Камо",
+                        "lastName": "Азарян",
+                        "patronymic": "Шурикович",
+                        "spouse": {
+                            "firstName": "Мариетта",
+                            "lastName": "Осипян",
+                            "patronymic": "Анушавановна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Артур",
+                                "lastName": "Азарян",
+                                "patronymic": "Камоевич",
+                                "spouse": {
+                                    "firstName": "Света",
+                                    "lastName": "Салахян",
+                                    "patronymic": "Артуровна"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Миша",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Артурович",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Арам",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Артурович",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Римма",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Артуровна",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Виталик",
+                        "lastName": "Азарян",
+                        "patronymic": "Шурикович",
+                        "spouse": {
+                            "firstName": "Регина",
+                            "lastName": "Салахян",
+                            "patronymic": "Левиковна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Марина",
+                                "lastName": "Азарян",
+                                "patronymic": "Витальевна",
+                                "spouse": {
+                                    "firstName": "Армик",
+                                    "lastName": "Тер-Ббанс",
+                                    "patronymic": "?"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Ангелина",
+                                        "lastName": "Тер-Ббанс",
+                                        "patronymic": "Армиковна",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Роберт",
+                                        "lastName": "Тер-Ббанс",
+                                        "patronymic": "Армикович",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "firstName": "Гоар",
+                                "lastName": "Азарян",
+                                "patronymic": "Витальевна",
+                                "spouse": {
+                                    "firstName": "Артур",
+                                    "lastName": "Азарян",
+                                    "patronymic": "Григорьевич"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Жора",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Артурович",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Армен",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Артурович",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "firstName": "Андраник",
+                                "lastName": "Азарян",
+                                "patronymic": "Витальевич",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Нона",
+                                "lastName": "Азарян",
+                                "patronymic": "Витальевна",
+                                "spouse": {
+                                    "firstName": "Ерванд",
+                                    "lastName": "Арутюнян",
+                                    "patronymic": "Генрихович"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Шогер",
+                        "lastName": "Азарян",
+                        "patronymic": "Шуриковна",
+                        "spouse": {
+                            "firstName": "Карен",
+                            "lastName": "Цатурян",
+                            "patronymic": "Гургенович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Инна",
+                                "lastName": "Цатурян",
+                                "patronymic": "Кареновна",
+                                "spouse": {
+                                    "firstName": "Зорик",
+                                    "lastName": "Арушанян",
+                                    "patronymic": "Левикович"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Ангелина",
+                                        "lastName": "Арушанян",
+                                        "patronymic": "Зориковна",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Артур",
+                                        "lastName": "Арушанян",
+                                        "patronymic": "Зориковна",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "firstName": "Вартухи(Ляля)",
+                                "lastName": "Цатурян",
+                                "patronymic": "Кареновна",
+                                "spouse": {
+                                    "firstName": "Артак",
+                                    "lastName": "Асриян",
+                                    "patronymic": "?"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Артем",
+                                        "lastName": "Асриян",
+                                        "patronymic": "Артакович",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Арина",
+                                        "lastName": "Асриян",
+                                        "patronymic": "Артаковна",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Тигран",
+                                        "lastName": "Асриян",
+                                        "patronymic": "Артакович",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "firstName": "Алиса",
+                                "lastName": "Цатурян",
+                                "patronymic": "Кареновна",
+                                "spouse": {
+                                    "firstName": "Левон",
+                                    "lastName": "Салахян",
+                                    "patronymic": "Аркадьевич"
+                                },
+                                "children": [
+                                    {
+                                        "firstName": "Арман",
+                                        "lastName": "Салахян",
+                                        "patronymic": "Левонович",
+                                        "spouse": null,
+                                        "children": []
+                                    },
+                                    {
+                                        "firstName": "Милана",
+                                        "lastName": "Салахян",
+                                        "patronymic": "Левоновна",
+                                        "spouse": null,
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Юрик",
+                        "lastName": "Азарян",
+                        "patronymic": "Шурикович",
+                        "spouse": {
+                            "firstName": "Белла",
+                            "lastName": "Арушанян",
+                            "patronymic": "Генриховна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Анна",
+                                "lastName": "Азарян",
+                                "patronymic": "Арамовна",
+                                "spouse": {
+                                    "firstName": "Армен",
+                                    "lastName": "Салахян",
+                                    "patronymic": "Александрович"
+                                },
+                                "children": []
+                            },
+                            {
+                                "firstName": "Давид",
+                                "lastName": "Азарян",
+                                "patronymic": "Арамович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Александр",
+                                "lastName": "Азарян",
+                                "patronymic": "Арамович",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Нуне",
+                        "lastName": "Азарян",
+                        "patronymic": "Шуриковна",
+                        "spouse": {
+                            "firstName": "Рома",
+                            "lastName": "Арушанян",
+                            "patronymic": "Генрихович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Наталя",
+                                "lastName": "Арушанян",
+                                "patronymic": "Романовна",
+                                "spouse": {
+                                    "firstName": "Мамикон",
+                                    "lastName": "?",
+                                    "patronymic": "?"
+                                },
+                                "children": []
+                            },
+                            {
+                                "firstName": "Нарина",
+                                "lastName": "Арушанян",
+                                "patronymic": "Романовна",
+                                "spouse": {
+                                    "firstName": "Артур",
+                                    "lastName": "Андреасян",
+                                    "patronymic": "Артемович"
+                                },
+                                "children": []
+                            },
+                            {
+                                "firstName": "Арсен",
+                                "lastName": "Арушанян",
+                                "patronymic": "Романович",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "firstName": "Валя",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевна",
+                "spouse": {
+                    "firstName": "Арам",
+                    "lastName": "Парсегян",
+                    "patronymic": "?"
+                },
+                "children": [
+                    {
+                        "firstName": "Карина",
+                        "lastName": "Парсегян",
+                        "patronymic": "Арамовна",
+                        "spouse": {
+                            "firstName": "Каро",
+                            "lastName": "Овсипян",
+                            "patronymic": "Ашотович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Араик",
+                                "lastName": "Овсипян",
+                                "patronymic": "Кароевич",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Тигран",
+                                "lastName": "Овсипян",
+                                "patronymic": "Кароевич",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Карен",
+                        "lastName": "Парсегян",
+                        "patronymic": "Арамович",
+                        "spouse": {
+                            "firstName": "Афеня",
+                            "lastName": "Мирабян",
+                            "patronymic": "Владимировна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Алик",
+                                "lastName": "Парсегян",
+                                "patronymic": "Каренович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Валя",
+                                "lastName": "Парсегян",
+                                "patronymic": "Кареновна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Наира",
+                        "lastName": "Парсегян",
+                        "patronymic": "Арамовна",
+                        "spouse": {
+                            "firstName": "Хачатур",
+                            "lastName": "Оганесян",
+                            "patronymic": "Беникович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Мира",
+                                "lastName": "Оганесян",
+                                "patronymic": "Хачатурович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "?",
+                                "lastName": "?",
+                                "patronymic": "?",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Армен",
+                        "lastName": "Парсегян",
+                        "patronymic": "Арамович",
+                        "spouse": {
+                            "firstName": "Ануш",
+                            "lastName": "Салахян",
+                            "patronymic": "Левиковна"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Арам",
+                                "lastName": "Парсегян",
+                                "patronymic": "Арменович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Лилит",
+                                "lastName": "Парсегян",
+                                "patronymic": "Арменовна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "firstName": "Жора",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевич",
+                "spouse": {
+                    "firstName": "Ася",
+                    "lastName": "Думанян",
+                    "patronymic": "?"
+                },
+                "children": [
+                    {
+                        "firstName": "Светлана",
+                        "lastName": "Азарян",
+                        "patronymic": "Георгиевна",
+                        "spouse": {
+                            "firstName": "Геворг",
+                            "lastName": "Салахян",
+                            "patronymic": "Юрьевич"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Юра",
+                                "lastName": "Салахян",
+                                "patronymic": "Геворгович",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Роза",
+                                "lastName": "Салахян",
+                                "patronymic": "Геворгована",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "firstName": "Сергей",
+                        "lastName": "Азарян",
+                        "patronymic": "Жораевич",
+                        "spouse": {
+                            "firstName": "Мариам",
+                            "lastName": "?",
+                            "patronymic": "?"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Лариса",
+                                "lastName": "Азарян",
+                                "patronymic": "Сергеевна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Тигран",
+                                "lastName": "Азарян",
+                                "patronymic": "Сергеевич",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Георгий",
+                                "lastName": "Азарян",
+                                "patronymic": "Сергеевич",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "firstName": "Борик",
+                "lastName": "Азарян",
+                "patronymic": "Сергеевич",
+                "spouse": {
+                    "firstName": "Ася",
+                    "lastName": "Думанян",
+                    "patronymic": "?"
+                },
+                "children": [
+                    {
+                        "firstName": "Белла",
+                        "lastName": "Азарян",
+                        "patronymic": "Борисовна",
+                        "spouse": {
+                            "firstName": "Руслан",
+                            "lastName": "Арушанян",
+                            "patronymic": "Константинович"
+                        },
+                        "children": [
+                            {
+                                "firstName": "Милена",
+                                "lastName": "Арушанян",
+                                "patronymic": "Руслановна",
+                                "spouse": null,
+                                "children": []
+                            },
+                            {
+                                "firstName": "Константин",
+                                "lastName": "Арушанян",
+                                "patronymic": "Руслановна",
+                                "spouse": null,
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
