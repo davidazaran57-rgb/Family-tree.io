@@ -396,20 +396,20 @@
                                 "patronymic": "Витальевна",
                                 "spouse": {
                                     "firstName": "Армик",
-                                    "lastName": "Тер-Ббанс",
+                                    "lastName": "Тер-Быбанц",
                                     "patronymic": "?"
                                 },
                                 "children": [
                                     {
                                         "firstName": "Ангелина",
-                                        "lastName": "Тер-Ббанс",
+                                        "lastName": "Тер-Быбанц",
                                         "patronymic": "Армиковна",
                                         "spouse": null,
                                         "children": []
                                     },
                                     {
                                         "firstName": "Роберт",
-                                        "lastName": "Тер-Ббанс",
+                                        "lastName": "Тер-Быбанц",
                                         "patronymic": "Армикович",
                                         "spouse": null,
                                         "children": []
@@ -760,9 +760,9 @@
                 "lastName": "Азарян",
                 "patronymic": "Сергеевич",
                 "spouse": {
-                    "firstName": "Ася",
-                    "lastName": "Думанян",
-                    "patronymic": "?"
+                    "firstName": "Лариса",
+                    "lastName": "Салахян",
+                    "patronymic": "Леаковна"
                 },
                 "children": [
                     {
