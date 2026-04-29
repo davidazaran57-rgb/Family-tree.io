@@ -11,22 +11,28 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             rotate(${angle + 270})
         `);
 
+    d3.selectAll("circle")
+        .attr("cy", 0)
+        .attr("stroke-width", 2)
+        .attr("stroke", "#000");
+
+    d3.selectAll("text")
+        .attr("text-anchor", "middle")
+        .attr("font-size", "14px");
+
     // 🔵 ОСНОВНОЙ ЧЕЛОВЕК
     g.append("circle")
         .attr("cx", -offset)
-        .attr("cy", 0)
         .attr("r", smallRadius)
         .attr("fill", getColor(person))
-        .attr("stroke", "#000");
+        
 
     // 💍 СУПРУГ (если есть)
     if (person?.spouse) {
         g.append("circle")
             .attr("cx", offset)
-            .attr("cy", 0)
             .attr("r", smallRadius)
             .attr("fill", getColor(person.spouse))
-            .attr("stroke", "#000");
 
         // линия между супругами
         g.append("line")
@@ -34,19 +40,17 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
             .attr("x2", offset - smallRadius)
             .attr("y1", 0)
             .attr("y2", 0)
-            .attr("stroke", "#000")
-            .attr("stroke-width", 2);
+            .attr("stroke-width", 2)
+            .attr("stroke", "#000");
+
         g.append("text")
             .attr("y", smallRadius + 15)
             .attr("x", offset)
-            .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
+
             .text(person.spouse.firstName);
         g.append("text")
             .attr("y", smallRadius + 30)
             .attr("x", offset)
-            .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
             .text(person.spouse.lastName);    
     }
 
@@ -55,14 +59,10 @@ export function drawPerson(container, x, y, offset, smallRadius, person) {
         g.append("text")
             .attr("y", smallRadius + 15)
             .attr("x", -offset)
-            .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
             .text(person.firstName);
         g.append("text")
             .attr("y", smallRadius + 30)
             .attr("x", -offset)
-            .attr("text-anchor", "middle")
-            .attr("font-size", "14px")
             .text(person.lastName);    
     }
     

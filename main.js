@@ -1,9 +1,10 @@
 import { drawPerson } from "./drawPerson.js";
 import { setupZoom } from "./zoom.js";
 import { assignColors } from "./colorGenerator.js";
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-//d3.json("tree/family.json").then(data => {
+import { initRotation, rotateLeft, rotateRight } from "./rotate.js";
+
 d3.json("tree/tree.json").then(data => {
+    
     assignColors(data.root);
     function linkParents(person) {
         if (!person) return;
@@ -31,7 +32,7 @@ d3.json("tree/tree.json").then(data => {
     const innerRadius = baseRadius * 0.4; // 🔥 новый маленький круг
 
     const smallRadius = 25;
-    const offset = smallRadius + 15;
+    const offset = smallRadius + 5;
 
     const ROWS = 6;
     const rowHeight = 500 / ROWS;
@@ -51,6 +52,9 @@ d3.json("tree/tree.json").then(data => {
             .attr("stroke", "#000")
             .attr("stroke-width", 3);
     }
+    initRotation(data.root, svg, width, height);
+    document.getElementById("rotate-left").addEventListener("click", rotateLeft);
+    document.getElementById("rotate-right").addEventListener("click", rotateRight);
 
     function drawGeneration(parents, startAngle, endAngle, depth) {
         if (!parents || parents.length === 0) return;

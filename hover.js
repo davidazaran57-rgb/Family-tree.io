@@ -35,7 +35,9 @@ function highlight(ancestors) {
  */
 function clearHighlight() {
     if (activePerson) return; // ❗ если есть клик — не сбрасываем
-    d3.selectAll(".person").classed("highlight", false);
+    d3.selectAll(".person")
+        .classed("highlight", false)
+        .classed("child-highlight", false);
 }
 
 /**
@@ -43,11 +45,13 @@ function clearHighlight() {
  */
 function focusOn(person) {
     const ancestors = getAncestors(person);
+    const children = person.children || [];
 
     d3.selectAll(".person")
         .classed("dimmed", true)
         .classed("highlight", false);
 
+    // предки (красный)
     ancestors.forEach(p => {
         if (p._element) {
             d3.select(p._element)
@@ -55,6 +59,22 @@ function focusOn(person) {
                 .classed("highlight", true);
         }
     });
+
+    // дети (синий)
+    children.forEach(c => {
+        if (c._element) {
+            d3.select(c._element)
+                .classed("dimmed", false)
+                .classed("child-highlight", true);
+        }
+    });
+
+    // сам человек
+    if (person._element) {
+        d3.select(person._element)
+            .classed("dimmed", false)
+            .classed("highlight", true);
+    }
 }
 
 /**
@@ -63,7 +83,8 @@ function focusOn(person) {
 function clearFocus() {
     d3.selectAll(".person")
         .classed("dimmed", false)
-        .classed("highlight", false);
+        .classed("highlight", false)
+        .classed("child-highlight", false);
 }
 
 /**
