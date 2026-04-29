@@ -1,7 +1,7 @@
 import { drawPerson } from "./drawPerson.js";
 import { setupZoom } from "./zoom.js";
 import { assignColors } from "./colorGenerator.js";
-
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 //d3.json("tree/family.json").then(data => {
 d3.json("tree/tree.json").then(data => {
     assignColors(data.root);
