@@ -141,6 +141,46 @@
                                         "patronymic": "Валерьевна",
                                         "spouse": null,
                                         "children": []
+                                    },
+                                    {
+                                        "firstName": "Арустам",
+                                        "lastName": "Азарян",
+                                        "patronymic": "Валерьевич",
+                                        "spouse": {
+                                            "firstName": "Маргарита",
+                                            "lastName": "Гулян",
+                                            "patronymic": "?"
+                                        },
+                                        "children": [
+                                            {
+                                                "firstName": "Альберт",
+                                                "lastName": "Азарян",
+                                                "patronymic": "Арустамович",
+                                                "spouse": null,
+                                                "children": []
+                                            },
+                                            {
+                                                "firstName": "Роберт",
+                                                "lastName": "Азарян",
+                                                "patronymic": "Арустамович",
+                                                "spouse": null,
+                                                "children": []
+                                            },
+                                            {
+                                                "firstName": "Артур",
+                                                "lastName": "Азарян",
+                                                "patronymic": "Арустамович",
+                                                "spouse": null,
+                                                "children": []
+                                            },
+                                            {
+                                                "firstName": "Тигран",
+                                                "lastName": "Азарян",
+                                                "patronymic": "Арустамович",
+                                                "spouse": null,
+                                                "children": []
+                                            }
+                                        ]
                                     }
                                 ]
                             }
