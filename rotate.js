@@ -8,7 +8,7 @@ export function initRotation(rootData, svgGroup, width, height) {
     const childrenCount = (rootData.children || []).length;
 
     // лучше по секторам (можешь вернуть childrenCount если нужно)
-    step = 360 / childrenCount;
+    step = 30;
 
     targetGroup = svgGroup;
     centerX = width / 2;
