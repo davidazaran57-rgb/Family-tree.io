@@ -49,6 +49,7 @@ function focusOn(person) {
 
     d3.selectAll(".person")
         .classed("dimmed", true)
+        .classed("child-highlight", false)
         .classed("highlight", false);
 
     // предки (красный)

@@ -12,10 +12,7 @@ body {
     transition: 0.2s;
 }
 
-.highlight circle {
-    stroke: red;
-    stroke-width: 4px;
-}
+
 .person {
     transition: 0.2s;
     cursor: pointer;
@@ -57,5 +54,10 @@ body {
 }
 .child-highlight circle {
     stroke: #0004ff; /* синий */
+    stroke-width: 4px;
+}
+
+.highlight circle {
+    stroke: red;
     stroke-width: 4px;
 }
